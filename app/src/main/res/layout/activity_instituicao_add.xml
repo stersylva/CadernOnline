@@ -11,22 +11,26 @@
         <EditText
             android:hint="Instituição"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/instituicao_nome"/>
 
         <EditText
             android:hint="Endereço"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/instituicao_endereco"/>
 
         <EditText
             android:hint="Telefone"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/instituicao_telefone"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Salvar"/>
+            android:text="Salvar"
+            android:id="@+id/btn_inst_salvar"/>
 
     </LinearLayout>
 </ScrollView>
