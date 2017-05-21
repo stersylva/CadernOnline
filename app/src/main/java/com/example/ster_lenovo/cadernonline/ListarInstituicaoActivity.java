@@ -15,7 +15,8 @@ public class ListarInstituicaoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.listar_instituicao);
 
-        String [] instituicao= {"Facol", "bgdteur", "hfyrit", "hgjrytopy", "horyut", "hgjl", "hfget", "vdfet", "vcbdgte"} ;
+
+        String [] instituicao= {"Facol"} ;
         ListView listarInstituicao = (ListView) findViewById(R.id.listar_instituicao);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, instituicao);
         listarInstituicao.setAdapter(adapter);
